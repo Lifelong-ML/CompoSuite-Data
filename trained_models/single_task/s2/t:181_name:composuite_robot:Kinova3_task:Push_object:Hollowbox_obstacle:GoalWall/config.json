@@ -1,0 +1,47 @@
+{
+    "ac_kwargs":	{
+        "hidden_sizes":	[
+            64,
+            64
+        ],
+        "log_std_init":	0.0
+    },
+    "actor_critic":	"MLPActorCritic",
+    "checkpoint":	null,
+    "clip_ratio":	0.2,
+    "ent_coef":	0.0,
+    "env_fn":	"<function main.<locals>.<lambda> at 0x7f42943a0d08>",
+    "epochs":	625,
+    "exp_name":	"t:181_name:composuite_robot:Kinova3_task:Push_object:Hollowbox_obstacle:GoalWall",
+    "gamma":	0.99,
+    "lam":	0.97,
+    "log_per_proc":	false,
+    "logger":	{
+        "<spinup.utils.logx.EpochLogger object at 0x7f42943a5d68>":	{
+            "epoch_dict":	{},
+            "exp_name":	"t:181_name:composuite_robot:Kinova3_task:Push_object:Hollowbox_obstacle:GoalWall",
+            "first_row":	true,
+            "log_current_row":	{},
+            "log_headers":	[],
+            "output_dir":	"spinningup_training/collas_rebuttal_experiments/single_task/s2/t:181_name:composuite_robot:Kinova3_task:Push_object:Hollowbox_obstacle:GoalWall",
+            "output_file":	{
+                "<_io.TextIOWrapper name='spinningup_training/collas_rebuttal_experiments/single_task/s2/t:181_name:composuite_robot:Kinova3_task:Push_object:Hollowbox_obstacle:GoalWall/progress.txt' mode='w' encoding='UTF-8'>":	{
+                    "mode":	"w"
+                }
+            }
+        }
+    },
+    "logger_kwargs":	{
+        "exp_name":	"t:181_name:composuite_robot:Kinova3_task:Push_object:Hollowbox_obstacle:GoalWall",
+        "output_dir":	"spinningup_training/collas_rebuttal_experiments/single_task/s2/t:181_name:composuite_robot:Kinova3_task:Push_object:Hollowbox_obstacle:GoalWall"
+    },
+    "max_ep_len":	500,
+    "pi_lr":	0.0001,
+    "save_freq":	1,
+    "seed":	2,
+    "steps_per_epoch":	16000,
+    "target_kl":	0.02,
+    "train_pi_iters":	128,
+    "train_v_iters":	128,
+    "vf_lr":	0.0001
+}

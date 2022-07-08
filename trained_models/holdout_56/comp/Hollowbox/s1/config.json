@@ -1,0 +1,94 @@
+{
+    "ac_kwargs":	{
+        "graph_structure":	[
+            [
+                0
+            ],
+            [
+                1
+            ],
+            [
+                2
+            ],
+            [
+                3
+            ]
+        ],
+        "hidden_sizes":	[
+            [
+                32
+            ],
+            [
+                32,
+                32
+            ],
+            [
+                64,
+                64,
+                64
+            ],
+            [
+                64,
+                64,
+                64
+            ]
+        ],
+        "interface_depths":	[
+            -1,
+            1,
+            2,
+            3
+        ],
+        "log_std_init":	0.0,
+        "module_input_names":	[
+            "obstacle-state",
+            "object-state",
+            "goal-state",
+            "robot0_proprio-state"
+        ],
+        "module_names":	[
+            "obstacle_id",
+            "object_id",
+            "subtask_id",
+            "robot_id"
+        ]
+    },
+    "actor_critic":	"CompositionalMLPActorCritic",
+    "checkpoint":	null,
+    "clip_ratio":	0.2,
+    "ent_coef":	0.02,
+    "env_fn":	"<function main.<locals>.<lambda> at 0x7f25e7e88510>",
+    "epochs":	625,
+    "exp_name":	"MTL_56",
+    "gamma":	0.99,
+    "lam":	0.97,
+    "log_per_proc":	true,
+    "logger":	{
+        "<spinup.utils.logx.EpochLogger object at 0x7f25e7e8ca58>":	{
+            "epoch_dict":	{},
+            "exp_name":	"MTL_56",
+            "first_row":	true,
+            "log_current_row":	{},
+            "log_headers":	[],
+            "output_dir":	"spinningup_training/collas_rebuttal_experiments/holdout_comp_experiments_newaxes/_axis2_s1/MTL_56",
+            "output_file":	{
+                "<_io.TextIOWrapper name='spinningup_training/collas_rebuttal_experiments/holdout_comp_experiments_newaxes/_axis2_s1/MTL_56/progress.txt' mode='w' encoding='UTF-8'>":	{
+                    "mode":	"w"
+                }
+            }
+        }
+    },
+    "logger_kwargs":	{
+        "exp_name":	"MTL_56",
+        "output_dir":	"spinningup_training/collas_rebuttal_experiments/holdout_comp_experiments_newaxes/_axis2_s1/MTL_56"
+    },
+    "max_ep_len":	500,
+    "pi_lr":	0.0001,
+    "save_freq":	1,
+    "seed":	1,
+    "steps_per_epoch":	896000,
+    "target_kl":	0.02,
+    "train_pi_iters":	128,
+    "train_v_iters":	128,
+    "vf_lr":	0.0001
+}

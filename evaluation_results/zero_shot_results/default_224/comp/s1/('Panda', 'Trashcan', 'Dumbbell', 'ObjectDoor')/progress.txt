@@ -1,0 +1,2 @@
+AverageEpRet	StdEpRet	MaxEpRet	MinEpRet	AverageSuccess	StdSuccess	EpLen
+90.02913	64.24394	227.95256	25.9366	0.3	0.45825756	500.0
